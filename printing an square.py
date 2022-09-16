@@ -8,15 +8,14 @@ move.pensize(5) # Size of your pen
 move.shape('turtle')
 
 def making_a_square() :
- move.forward(100)
- move.right(90)
- move.forward(100)
- move.right(90)
- move.forward(100)
- move.right(90)
- move.forward(100)
- move.right(90)
-
+ move.forward(250) # The size of the line
+ move.right(90) # Angle
+ move.forward(250) # The size of the line
+ move.right(90) # Angle
+ move.forward(250) # The size of the line
+ move.right(90) # Angle
+ move.forward(250) # The size of the line
+ move.right(90) # Angle
  
 
 making_a_square()
